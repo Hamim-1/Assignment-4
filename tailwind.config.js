@@ -3,15 +3,15 @@ module.exports = {
   darkMode: 'class',
   content: ['./dist/**/*.{html,js}'],
   theme: {
-    screens: {
-      'xs': '540px',
-      'sm': '640px',
-      'md': '768px',
-      'lg': '992px',
-      'xl': '1224px',
-      '2xl': '1536px',
-    },
     extend: {
+
+      screens: {
+        'xl': '1240px',
+        'lg': '1024px',
+        'md': '768px',
+        'sm': '640px',
+        'xs': '520px',
+      },
       colors: {
         secondary: '#F44335',
       },

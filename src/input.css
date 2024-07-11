@@ -21,5 +21,5 @@
 }
 
 .customContainer {
-    @apply container mx-auto px-2 my-14;
+    @apply container mx-auto px-5 my-14;
 }
