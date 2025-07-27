@@ -1,40 +1,39 @@
-# 📚 Minimal Library Management System
+# 📚 Assignment 4 - Minimal Library Management System
 
-A modern and minimal **Library Management System** built with:
+A minimal **Library Management System** built with:
 
 - ⚛️ React
 - 💬 TypeScript
 - 🎨 Tailwind CSS
 - 📦 Redux Toolkit & RTK Query
-- 🌐 Express & MongoDB (for backend)
+- 🌐 Express & MongoDB (Backend)
 
 ## 🚀 Features
 
-- Add, update, delete books
-- Borrow and return books
-- Real-time status updates (available/unavailable)
-- Loading and error handling with toast notifications
-- Mobile responsive UI
+- 📖 Add, edit, delete books
+- 🔄 Borrow and return functionality
+- 🟢 Live availability status
+- 📡 RTK Query for data fetching
+- 🎯 Toast notifications for success/error
+- 💻 Fully responsive UI
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-| Frontend              | Backend             |
-|-----------------------|---------------------|
-| React + TypeScript    | Node.js + Express   |
-| Tailwind CSS          | MongoDB + Mongoose  |
-| Redux Toolkit & RTK Query | REST API        |
-| React Router DOM      | Vercel Deployment   |
-| React Hot Toast       |                     |
+| Frontend               | Backend               |
+|------------------------|------------------------|
+| React + TypeScript     | Node.js + Express      |
+| Tailwind CSS           | MongoDB + Mongoose     |
+| Redux Toolkit + RTK Query | REST API         |
+| React Router DOM       | Deployed on Render     |
+| React Hot Toast        |                        |
 
-## 📦 Installation & Setup
+## 🧑‍💻 Getting Started
+
+### Clone & Install
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/library-management.git
-cd library-management
+git clone https://github.com/your-username/Assignment-4.git
+cd Assignment-4
 
-# Install dependencies
 npm install
-
-# Run frontend locally
 npm run dev
